@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	padding: 10px;
+	/*width: 100%;*/
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	background: black;
+	align-items: center;
+}
+nav a{
+	font-size: 2rem;
+	text-decoration: none;
+	margin-right: 20px;
+	color: white;
+}
+
+.movies{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	height: 100%;
+	gap: 10px;
+	padding: 10px;
+
+}
+.logo{
+	color: white;
+	font-size: 2rem;
+
+
+
+.boevik{
+background: yellow;
+}
+/*.desc1{*/
+background-image: linear-gradient(to left, violet,indigo, blue, green, yellow, orange,red);
+-webkit-background-clip : text;
+-webkit-text-fill-color: transperent;
+}
+
+.movie-card1{
+	box-shadow: 2px 5px 3px 5px white;
+	border-radius: 10px;
+}
+.movie-card2{
+	box-shadow: 2px 5px 3px 5px violet;
+	border-radius: 10px;
+}
+.movie-card3{
+	box-shadow: 2px 5px 3px 5px sandybrown;
+	border-radius: 10px;
+}
+.movie-card4{
+	box-shadow: 2px 5px 3px 5px darkred;
+	border-radius: 10px;
+}
+.movie-card5{
+	box-shadow: 2px 5px 3px 5px darkviolet;
+	border-radius: 10px;
+}.movie-card6{
+	box-shadow: 2px 5px 3px 5px black;
+	border-radius: 10px;
+}
+
+p{
+	font-weight: 10px;
+}
+img {
+
+	width: 100%;
+}
